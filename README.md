@@ -8,6 +8,7 @@ Il y a deux modes de jeu :
 
 ## Installation
 
+### Client :
 Il vous suffit d’extraire tout le dossier de l’archive. Et voilà le programme est installé.
 
 Pour se connecter à un serveur, il vous suffit de modifier l'adresse IP dans le répertoir `programme/multi` dans le fichier `client.py`.
@@ -18,6 +19,12 @@ def connexion():
     hote = "ip-du-serveur"
     port = 12800
 ```
+
+### Serveur :
+Le code du serveur est disponible dans le dossier `server`.
+Pour le lancer :
+- Sur Windows : executer le fichier `run.bat`
+- Sur Linux : executer la commande `python3 main.py`
 
 ## Lancé le programme
 
